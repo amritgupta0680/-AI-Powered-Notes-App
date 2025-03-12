@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("https://source.unsplash.com/random/1920x1080/?nature,abstract");
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease-in-out;
+}
+
+.dark body {
+  background-image: url("https://source.unsplash.com/random/1920x1080/?galaxy,stars");
+}
+
+/* Light Mode */
+body {
+  background-color: #f3f4f6; /* Light gray */
+  color: #111827;
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: #1f2937; /* Dark gray */
+  color: #f9fafb;
+}
