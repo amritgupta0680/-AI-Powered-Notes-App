@@ -12,7 +12,7 @@ An AI-powered notes app built with **React, Node.js, Express, and PostgreSQL**. 
 
 ## 🛠 Technologies Used
 - **Frontend:** React, React Router, Axios, Tailwind CSS
-- **Backend:** Node.js, Express, PostgreSQL, AI API (HUgging Face API for Summarization)
+- **Backend:** Node.js, Express, PostgreSQL, AI API (Hugging Face API for Summarization)
 - **Database:** PostgreSQL
 
 ## 🚀 How to Run
